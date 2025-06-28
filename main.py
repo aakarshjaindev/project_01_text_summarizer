@@ -11,7 +11,7 @@ app = FastAPI()
 
 # Load the summarization pipeline from Hugging Face.
 # This model is downloaded and cached on the first run.
-summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-6-6")
 
 # Define the summarization endpoint
 @app.post("/summarize/")
