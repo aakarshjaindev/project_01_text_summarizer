@@ -5,4 +5,4 @@ app = FastAPI()
 def read_root():
     return {'message': 'Welcome to this app'}
 
-    
+
