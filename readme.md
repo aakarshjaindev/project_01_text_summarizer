@@ -1,3 +1,6 @@
+# deployed on render
+https://text-summarizer-api-sf7p.onrender.com
+
 # Text Summarizer API
 
 A powerful and efficient text summarization service built with FastAPI and Transformers. Convert long texts into concise, meaningful summaries with state-of-the-art NLP models.
